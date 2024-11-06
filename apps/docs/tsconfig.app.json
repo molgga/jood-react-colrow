@@ -25,8 +25,13 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@jood/r-colorw": ["../../packages/r-colrow/src"],
-      "@jood/r-colorw/*": ["../../packages/r-colrow/src/*"]
+      "@apps/ui": ["../ui/src/*"],
+      "@apps/ui/components/ui/*": ["../ui/src/components/ui/*"],
+      "@apps/ui/hooks/*": ["../ui/src/hooks/*"],
+      "@apps/ui/lib/*": ["../ui/src/lib/*"],
+      "@apps/ui/utils/*": ["../ui/src/utils/*"],
+      "@jood/r-colrow": ["../../packages/r-colrow/src"],
+      "@jood/r-colrow/*": ["../../packages/r-colrow/src/*"]
     }
   },
   "include": ["src"]

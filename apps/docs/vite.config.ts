@@ -8,8 +8,9 @@ export default defineConfig({
   resolve: {
     alias: [
       { find: '@', replacement: path.resolve(__dirname, 'src') },
+      { find: '@apps/ui', replacement: path.resolve(__dirname, '../ui/src') },
       {
-        find: '@jood/r-colorw',
+        find: '@jood/r-colrow',
         replacement: path.resolve(__dirname, '../../packages/r-colrow/src'),
       },
     ],
