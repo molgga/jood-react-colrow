@@ -20,7 +20,7 @@
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
-    "baseUrl": "."
+    "types": ["@types/node"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]

@@ -10,8 +10,8 @@ export default defineConfig({
       { find: '@', replacement: path.resolve(__dirname, 'src') },
       { find: '@apps/ui', replacement: path.resolve(__dirname, '../ui/src') },
       {
-        find: '@jood/r-colrow',
-        replacement: path.resolve(__dirname, '../../packages/r-colrow/src'),
+        find: '@jood/react-colrow',
+        replacement: path.resolve(__dirname, '../../packages/react-colrow/src'),
       },
     ],
   },
