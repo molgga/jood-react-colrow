@@ -24,6 +24,7 @@
 
     "baseUrl": ".",
     "paths": {
+      "@/*": ["src/*"],
       "@jood/r-colorw": ["../../packages/r-colrow/src"],
       "@jood/r-colorw/*": ["../../packages/r-colrow/src/*"]
     }

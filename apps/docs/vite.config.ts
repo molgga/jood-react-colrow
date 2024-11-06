@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: [
+      { find: '@', replacement: path.resolve(__dirname, 'src') },
       {
         find: '@jood/r-colorw',
         replacement: path.resolve(__dirname, '../../packages/r-colrow/src'),
